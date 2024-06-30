@@ -6,6 +6,8 @@ body {
 main {
     flex-direction: row;
     flex: auto;
+    color: #ac1c1c;
+    border: 1px solid #081b50;
 }
 
 article {
@@ -16,4 +18,10 @@ article {
 aside {
     flex-grow: 1;
     overflow: auto;
+}
+
+.logo {
+    display: flex;
+    height: 60px;
+    width: 60px;
 }
