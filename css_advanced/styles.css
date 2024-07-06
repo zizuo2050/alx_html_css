@@ -333,6 +333,11 @@ section div p {
     padding: 1px;
 }
 
+.membership div img {
+    padding-top: 10px;
+    padding-left: 20%;
+}
+
 .frist-member {
     margin-left: 7.5%;
 }
@@ -360,10 +365,6 @@ section div p {
     background-color: #d154e7;
 }
 
-.faq {
-    /* display: flex;
-    flex-wrap: wrap; */
-}
 
 .faq h2 {
     text-align: center;
