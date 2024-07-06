@@ -190,6 +190,7 @@ section div p {
 }
 
 #videos-list h2 span {
+    font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
     font-weight: bold;
 }
@@ -220,6 +221,7 @@ section div p {
     padding: 0;
     top: 28.5%;
     left: 93px;
+    border-radius: 3px;
     border-width: 12px;
     border-style: solid;
     border-color: transparent transparent transparent blueviolet;
@@ -304,4 +306,119 @@ section div p {
     bottom: -101px;
     text-align: right;
     color: blueviolet;
+
+}
+
+.membership {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #263247;
+    color: white;
+}
+
+.membership h2 {
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+.membership h2 span {
+    color: #d154e7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.membership div {
+    width: calc(90% / 4);
+    padding: 1px;
+}
+
+.frist-member {
+    margin-left: 7.5%;
+}
+
+.membership div h3 {
+    margin: 20px 5px 5px 20px;
+    padding: 10px;
+}
+
+.membership div p {
+    padding: 1px;
+    width: 200px;
+}
+
+.membership button {
+    width: 164px;
+    height: 50px;
+    border-radius: 31px;
+    border: 1px solid #e104fb;
+    margin-left: 42%;
+    margin-top: 100px;
+    margin-bottom: 66px;
+    text-align: center;
+    color: white;
+    background-color: #d154e7;
+}
+
+.faq {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.faq h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 2.5em;
+}
+
+.faq-cont {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-bottom: 50px;
+
+
+}
+
+.faq div div {
+    width: 75%;
+    margin: 10px;
+}
+
+.faq div div div h3 {
+    padding: 1px;
+    margin: 30px 0 15px 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #263247;
+    height: 155px;
+    position: relative;
+}
+
+.footer div img {
+    margin-left: 13%;
+    margin-top: 60px;
+    padding: 1px;
+}
+
+.footer div div {
+    position: absolute;
+    top: 67px;
+    right: 13%;
+}
+
+.footer div div {
+    color: #fff;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
 }
