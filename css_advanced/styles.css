@@ -174,8 +174,10 @@ section div p {
     /* background-color: green; */
     display: flex;
     flex-wrap: wrap;
-    height: 566px;
+    height: 432px;
     justify-content: space-evenly;
+    align-content: flex-start;
+
 }
 
 #videos-list h2 {
@@ -184,7 +186,12 @@ section div p {
     /* align-self: center; */
     /* justify-content: center; */
     text-align: center;
-    margin: 10px;
+    margin: 31px 31px 10px 31;
+}
+
+#videos-list h2 span {
+    color: blueviolet;
+    font-weight: bold;
 }
 
 #videos-list div {
@@ -196,8 +203,9 @@ section div p {
 .playbt::before {
     content: '';
     position: absolute;
-    width: 15%;
-    height: 15%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
     background-color: rgb(255 255 255 / 31%);
     top: 27.5%;
     left: 32.9%;
@@ -206,13 +214,17 @@ section div p {
 .playbt::after {
     content: '';
     position: absolute;
-    width: 15%;
-    height: 15%;
-    background-color: rgb(143, 38, 38);
-    top: 27.5%;
-    border-width: 60px;
-    border-color: transparent transparent transparent #202020;
+    width: 0px;
+    height: 0px;
+    margin: 0;
+    padding: 0;
+    top: 28.5%;
+    left: 93px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent transparent blueviolet;
 }
+
 
 
 #videos-list div img {
@@ -277,6 +289,13 @@ section div p {
     content: "\f005";
     display: inline;
     color: blueviolet;
+}
+
+.fa-star1:before {
+    content: "\f005";
+    display: inline;
+    /* background-color: white; */
+    color: #9d9797;
 }
 
 .min {
