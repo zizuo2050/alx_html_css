@@ -1,0 +1,288 @@
+body {
+    font-family: 'source sans pro', 'spin Cycle OT';
+    font-weight: 100;
+    color: black;
+}
+
+header {
+    background-image: url(image/Object.png);
+    width: 100%;
+    height: 1050px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 10%;
+    top: 30px;
+}
+
+header nav img {
+    width: 100px;
+    height: 30px;
+    align-self: center;
+
+}
+
+header nav ul {
+    display: inherit;
+    list-style: none;
+    height: 30px;
+    width: 40%;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-end;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    align-self: space-between;
+}
+
+#frist-section {
+    position: absolute;
+    bottom: -510px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+
+section div h1 {
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 5px;
+
+    scale: 2.7 3;
+    margin-left: 39%;
+    margin-bottom: 50px;
+}
+
+section div span {
+    margin: 10px 20px 20px 20px;
+}
+
+section div button {
+    position: relative;
+    top: 48px;
+    right: 190px;
+    height: 40px;
+    border: 1px;
+    box-shadow: -2px -8px 20px 10px gray;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(196, 95, 226);
+}
+
+.div-two {
+    width: 100%;
+    margin-left: 0;
+
+}
+
+section div h2 {
+    margin-top: 139px;
+    margin-left: -11%;
+}
+
+section div h2 span {
+    color: rgb(196, 95, 226);
+    margin-right: 7px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.people {
+    width: 80%;
+    margin: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 76px;
+}
+
+section div div div {
+    border-radius: 20px;
+}
+
+section div div div img {
+    border-radius: 50%;
+    /* margin: 5px 10px 10px 5px; */
+}
+
+section div div div p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: smaller;
+    text-align: center;
+    width: 130px;
+    margin-top: -8px;
+    margin-left: 10px;
+
+}
+
+#section-two {
+    background-color: blueviolet;
+    position: relative;
+    height: 300px;
+}
+
+section div img {
+    padding-top: 30PX;
+    padding-left: 27%;
+}
+
+section .blockquote {
+    position: absolute;
+    top: 83px;
+    left: 500px;
+    width: fit-content;
+}
+
+section div blockquote {
+    width: 500PX;
+    text-wrap: wrap;
+}
+
+section div h3,
+section div p {
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+section div p {
+    margin-top: 0px;
+}
+
+
+
+
+#videos-list {
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 566px;
+    justify-content: space-evenly;
+}
+
+#videos-list h2 {
+    width: 100%;
+    height: 44px;
+    /* align-self: center; */
+    /* justify-content: center; */
+    text-align: center;
+    margin: 10px;
+}
+
+#videos-list div {
+    height: 200px;
+    width: 250px;
+    position: relative;
+}
+
+.playbt::before {
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(255 255 255 / 31%);
+    top: 27.5%;
+    left: 32.9%;
+}
+
+.playbt::after {
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    background-color: rgb(143, 38, 38);
+    top: 27.5%;
+    border-width: 60px;
+    border-color: transparent transparent transparent #202020;
+}
+
+
+#videos-list div img {
+    width: 200px;
+    height: 132px;
+    padding: 1px;
+}
+
+#videos-list div p {
+    width: 240px;
+    height: 100;
+    padding: 2px;
+}
+
+#videos-list div div {
+    height: 38px;
+    width: 192px;
+    padding: 1px;
+    margin: 2px;
+
+}
+
+/* .video-tutorials {
+    width: 25%;
+    height: 300px;
+    margin: 20px; */
+
+
+/* .video-tutorials img {
+    /* border-radius: 50%; */
+
+#videos-list div div img {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 1px;
+    vertical-align: middle;
+}
+
+#videos-list div h3 {
+    padding-left: 3px;
+    margin-bottom: 2px;
+}
+
+#videos-list div div h4 {
+    margin: 3px;
+    display: inline-block;
+    color: blueviolet;
+}
+
+/* #videos-list div div p {
+    margin: 1px;
+    width: fit-content;
+} */
+
+#videos-list div div div {
+    display: inline;
+    position: relative;
+}
+
+.fa-star:before {
+    content: "\f005";
+    display: inline;
+    color: blueviolet;
+}
+
+.min {
+    display: inline;
+    position: absolute;
+    bottom: -101px;
+    text-align: right;
+    color: blueviolet;
+}
